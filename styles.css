@@ -1,0 +1,91 @@
+.logo {
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: hsl(41, 97%, 34%);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.Perfil {
+    display: block;
+    margin: 20px auto;
+    width: 15%;
+    border-radius: 50%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.slide {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.item {
+    background-size: cover;
+    background-position: center;
+    min-height: 420px;
+    display: flex;
+    align-items: flex-end;
+    padding: 20px;
+    color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.item.cozinha {
+    background-image: url('img/cozinha.png');
+}
+
+.item.closet {
+    background-image: url('img/closet.png');
+}
+
+.item.sala {
+    background-image: url('img/sala.png');
+}
+
+.item.lazer {
+    background-image: url('img/lazer.png');
+}
+
+.content {
+    background: rgba(0, 0, 0, 0.45);
+    border-radius: 10px;
+    padding: 16px;
+}
+
+.description {
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
