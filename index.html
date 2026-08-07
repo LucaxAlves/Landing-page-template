@@ -7,7 +7,7 @@
     <title>MA Design | Marcenaria sob medida</title>
 </head>
 <body>
-    <header>
+    <header class="hero-header">
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
@@ -18,14 +18,68 @@
         </nav>
     </header>
 
+    <div class="slider">
+            
+        <div class="slides">
+            
+            <!-- Radio buttons -->
+                <input type="radio" name="radio-btn" id="radio1" aria-label="Selecionar slide 1" title="Selecionar slide 1">
+                <input type="radio" name="radio-btn" id="radio2" aria-label="Selecionar slide 2" title="Selecionar slide 2">
+                <input type="radio" name="radio-btn" id="radio3" aria-label="Selecionar slide 3" title="Selecionar slide 3">
+                <input type="radio" name="radio-btn" id="radio4" aria-label="Selecionar slide 4" title="Selecionar slide 4">
+            <!-- fim radio buttons-->
+            
+            <!-- Slide images -->
+            <div class="slide first">
+                <img src="img/cozinha.png" alt="Cozinha">
+            </div>
+            <div class="slide">
+                <img src="img/lazer.png" alt="Cozinha">
+            </div>
+            <div class="slide">
+                <img src="img/closet.png" alt="Cozinha">
+            </div>
+            <div class="slide">
+                <img src="img//sala.png" alt="Cozinha">
+            </div>
+            <!-- fim Slide images -->
+
+            <!-- Automatic navigation -->
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+            <!-- fim Automatic navigation -->
+
+            <div class="class manual-navigation">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+
+        </div>
+    </div>
+
     <main>
         <section>
             <img class="logo" src="img/logo.png" alt="Logo da MA Design">
+            
             <p>Quando você sonha com a sua casa perfeita, você não está pensando apenas em paredes e armários — você está imaginando os momentos de paz, a rotina leve e o aconchego de estar com quem ama. Na MA Design, traduzimos esses sentimentos em projetos de marcenaria moderna sob medida. Unimos design, funcionalidade e carinho em cada detalhe para que cada ambiente transmita calmaria, ordem e acolhimento. Não é sobre móveis, é sobre pessoas.</p>
-            <img class="Perfil" src="img/perfil.png" alt="foto do perfil do dono da empresa">
+            
+            <div class="profile-card">
+                <img class="Perfil" src="img/perfil.png" alt="foto do perfil do dono da empresa">
+                <div class="profile-text">
+                    <p>Company owner</p>
+                </div>
+            </div>
+            
             <button class="btn">Entre em contato</button>
         </section>
     </main>
 
+    
 </body>
 </html>
